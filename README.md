@@ -3,11 +3,20 @@ Three Mode Navbar with icon for Bootstrap (Desktop: navbar; Tablet: sidebar; Mob
 
 A Navbar that changes based on your screen mode. This Bootstrap plugin provides a unique stylish mode for desktop, tablet, and mobile phone view. Don't forget to download the Bootstrap package you use the cached version. This project uses Bootstrap 4.1.3
 
-Desktop View: . A normal Bootstrap Navbar with icon and a small description in inline orientation.
+Desktop View:
+<ul>
+  <li>A normal Bootstrap Navbar with icon and a small description in inline orientation.</li>
+</ul>
 
-Tablet View: . A nice sidebar that slides from left to right in block orientation. . A dark overlay covers the background with opacity.
+Tablet View: 
+<ul>
+  <li>A nice sidebar that slides from left to right in block orientation. . A dark overlay covers the background with opacity.</li>
+</ul>
 
-Mobile Phone View: . A fantastic scrolling menu displays the icon options in inline orientation.
+Mobile Phone View: 
+<ul>
+  <li>A fantastic scrolling menu displays the icon options in inline orientation.</li>
+</ul>
 
 **This plugin is open source. I'd be glad to have your help to contribute to our community.
 
