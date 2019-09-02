@@ -17,9 +17,7 @@ Mobile Phone View: . A fantastic scrolling menu displays the icon options in inl
 
 Include the css after the Bootstrap css
 
-<pre>
-<link rel="stylesheet" href="https://raw.githubusercontent.com/raulFuzita/triumvirate-booystrap-plugin/master/triumvirate-bootstrap-plugin/css/triumvirate.css" crossorigin="anonymous">
-</pre>
+&#60;link rel="stylesheet" href="https://raw.githubusercontent.com/raulFuzita/triumvirate-booystrap-plugin/master/triumvirate-bootstrap-plugin/css/triumvirate.css" crossorigin="anonymous">
 
 Include the js after the Jquery and Bootstrap js
 
