@@ -11,6 +11,18 @@ Mobile Phone View: . A fantastic scrolling menu displays the icon options in inl
 
 **This plugin is open source. I'd be glad to have your help to contribute to our community.
 
+**************** Implementation *****************
+
+Include the css after the Bootstrap css
+
+<link rel="stylesheet" href="https://raw.githubusercontent.com/raulFuzita/triumvirate-booystrap-plugin/master/triumvirate-bootstrap-plugin/css/triumvirate.css" crossorigin="anonymous">
+
+Include the js after the Jquery and Bootstrap js
+
+<script src="https://raw.githubusercontent.com/raulFuzita/triumvirate-booystrap-plugin/master/triumvirate-bootstrap-plugin/js/triumvirate.js" crossorigin="anonymous"></script>
+
+
+
 **************** Sources: *******************
 
 For the scrolling effect, I based on the code provided at https://medium.com Article webpage link: https://medium.com/flexbox-and-grids/how-to-create-horizontally-scrollable-sections-with-flexbox-60d860f539b2 date: 28/08/2019
