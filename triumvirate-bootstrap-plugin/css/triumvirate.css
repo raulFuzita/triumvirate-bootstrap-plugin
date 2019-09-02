@@ -1,0 +1,195 @@
+header {
+    position: relative;
+    width: 100% !important;
+}
+
+nav {position: relative;}
+
+.sidebar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 0.25rem;
+  }
+  
+.sidebar-toggler:hover, .sidebar-toggler:focus {
+text-decoration: none;
+}
+
+.eclipse {
+    position: fixed;
+    display: none;
+    background-color: black;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+    opacity: 0.6;
+}
+
+.pantheon-dome {
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 80px;
+    overflow-x: auto;
+}
+
+.pantheon-dome::-webkit-scrollbar {display: none;}
+
+.pantheon-dome ul, ul.pantheon-dome {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+}
+.pantheon-dome ul li {
+    display: inline;
+    margin: auto; 
+}
+
+.pantheon-dome a {margin: auto; padding: auto}
+.pantheon-dome ul li a { text-decoration: none;}
+
+.pantheon-dome--content {
+    position: relative;
+    width: 100px;
+    margin: 5px auto;
+}
+
+.pantheon-dome--content img {
+    width: 100%;
+    height: 85px;
+    border-radius: 50%;
+    object-fit: cover; 
+    vertical-align: middle;
+    margin-left: 0;
+}
+
+.pantheon-dome--content span {
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 0.8em;
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+}
+
+.pantheon-dome--content div {
+    position: relative;
+    width: 85%;
+    height: 79%;
+    top: 0;
+    left: 4px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.ghost-it-out {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.ghost-it-out + span {color: #777;}
+
+.pantheon-dome-box {
+    overflow-x: auto !important;
+    text-align: center;
+}
+
+.not-selectable {
+	-webkit-user-select: none !important;  /* Chrome all / Safari all */
+	-moz-user-select: none !important;     /* Firefox all */
+	-ms-user-select: none !important;      /* IE 10+ */
+	user-select: none !important;          /* Likely future */  
+	cursor: default;
+}
+
+@media (min-width: 576px) {
+    .navbar-expand-sm .sidebar-toggler {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .sidebar-toggler {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .eclipse {display: none;}
+    .pantheon-dome--content img {height: 65px;}
+    .pantheon-dome--content div {width: 65%;}
+
+    .pantheon-dome--content span {
+        font-size: 0.7em; 
+        width: 85px; 
+        margin: 5px auto auto auto !important;}
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .sidebar-toggler {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+
+    .collapse {
+        display: block !important;
+        z-index: 100002 !important;
+    }
+
+    .pantheon-dome {display: block !important;}
+    .pantheon-dome ul, ul.pantheon-dome {display: block !important;}
+    .pantheon-dome--content {margin-top: 25px !important;}
+
+    .navbar-collapse {
+        position: fixed;
+        display: block;
+        z-index: 9998;
+        top: 0;
+        left: 0;
+        -webkit-transition: margin-left 500ms ease;
+        -moz-transition: margin-left 500ms ease;
+        -o-transition: margin-left 500ms ease;
+        transition: margin-left 500ms ease;
+        background-color: #343a40;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        /* vertical-align: middle; */
+        height: 100%;
+        width: 250px;
+        margin-left: -50%;
+        padding: 20px 25px 0 25px;
+        
+    }
+
+    .navbar-collapse.in {margin-left: 0;}
+}
+
+@media (min-width: 1200px) {
+    .navbar-expand-xl .sidebar-toggler {
+        display: none;
+    }
+    .navbar-expand .sidebar-toggler {
+        display: none;
+    }
+    .navbar-light .sidebar-toggler {
+        color: rgba(0, 0, 0, 0.5);
+        border-color: rgba(0, 0, 0, 0.1);
+    }
+    .navbar-dark .sidebar-toggler {
+        color: rgba(255, 255, 255, 0.5);
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+}
