@@ -11,7 +11,9 @@ Mobile Phone View: . A fantastic scrolling menu displays the icon options in inl
 
 **This plugin is open source. I'd be glad to have your help to contribute to our community.
 
-**************** Implementation *****************
+
+
+# Implementation
 
 Include the css after the Bootstrap css
 
@@ -23,7 +25,7 @@ Include the js after the Jquery and Bootstrap js
 
 
 
-**************** Sources: *******************
+# Sources 
 
 For the scrolling effect, I based on the code provided at https://medium.com Article webpage link: https://medium.com/flexbox-and-grids/how-to-create-horizontally-scrollable-sections-with-flexbox-60d860f539b2 date: 28/08/2019
 
