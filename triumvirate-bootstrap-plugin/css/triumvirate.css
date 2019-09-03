@@ -148,8 +148,9 @@ text-decoration: none;
         z-index: 100002 !important;
     }
 
-    .pantheon-dome {display: block !important;}
+    .pantheon-dome {display: block !important; height: 60%;}
     .pantheon-dome ul, ul.pantheon-dome {display: block !important;}
+    .pantheon-dome + div {padding-top: 15px;}
     .pantheon-dome--content {margin-top: 25px !important;}
 
     .navbar-collapse {
