@@ -35,13 +35,6 @@ Include the js after the Jquery and Bootstrap js
 <h2>Syntax Example</h2>
 
 <pre>
-
-&#60;/head&#62;
-    &#60;body&#62;
-        &#60;!--[if lt IE 7]&#62;
-            &#60;p class="browsehappy"&#62;You are using an &#60;strong&#62;outdated&#60;/strong&#62; browser. Please &#60;a href="#"&#62;upgrade your browser&#60;/a&#62; to improve your experience.&#60;/p&#62;
-        &#60;![endif]--&#62;
-
         &#60;header class="mb-5"&#62;
             &#60;nav class="navbar navbar-expand-lg navbar-dark bg-dark"&#62;
                 &#60;!-- Website logo --&#62;
