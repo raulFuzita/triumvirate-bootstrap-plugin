@@ -15,7 +15,12 @@ nav {position: relative;}
   }
   
 .sidebar-toggler:hover, .sidebar-toggler:focus {
-text-decoration: none;
+    text-decoration: none;
+}
+
+.collapse {
+    overflow-x: auto !important;
+    text-align: center;
 }
 
 .eclipse {
@@ -98,11 +103,6 @@ text-decoration: none;
 
 .ghost-it-out + span {color: #777;}
 
-.pantheon-dome-box {
-    overflow-x: auto !important;
-    text-align: center;
-}
-
 .not-selectable {
 	-webkit-user-select: none !important;  /* Chrome all / Safari all */
 	-moz-user-select: none !important;     /* Firefox all */
@@ -148,7 +148,7 @@ text-decoration: none;
         z-index: 100002 !important;
     }
 
-    .pantheon-dome {display: block !important; height: 60%;}
+    .pantheon-dome {display: block !important; max-height: 60%;}
     .pantheon-dome ul, ul.pantheon-dome {display: block !important;}
     .pantheon-dome + div {padding-top: 15px;}
     .pantheon-dome--content {margin-top: 25px !important;}
