@@ -19,14 +19,6 @@
         }
     ],
     "require": {
-        "raulFuzita/triumvirate-booystrap-plugin": "dev-0.17.x"
-    },
-    "suggest": {
-        "ext-curl": "*"
-    },
-    "autoload": {
-        "psr-0": {
-            "triumvirate-booystrap-plugin": "triumvirate-booystrap-plugin/"
-        }
+        "raulFuzita/triumvirate-booystrap-plugin": "dev-master"
     }
 }
