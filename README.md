@@ -36,91 +36,97 @@ Include the js after the Jquery and Bootstrap js
 
 <pre>
 
-&#60;header class="mb-5">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <!-- Website logo -->
-                <a class="navbar-brand" href="#">YOUR LOGO</a>
-    
-                <!-- Display hamburger menu for desktop and mobile phone -->
-                <button class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    
-                <!-- Display hamburger menu for tablet. Keep the data-toggle name -->
-                <button class="sidebar-toggler d-none d-md-block d-lg-none" type="button" data-toggle="toggle" data-target="#navbarNav" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+&#60;/head&#62;
+    &#60;body&#62;
+        &#60;!--[if lt IE 7]&#62;
+            &#60;p class="browsehappy"&#62;You are using an &#60;strong&#62;outdated&#60;/strong&#62; browser. Please &#60;a href="#"&#62;upgrade your browser&#60;/a&#62; to improve your experience.&#60;/p&#62;
+        &#60;![endif]--&#62;
 
-                <!-- Menu -->
-                <div class="collapse navbar-collapse pantheon-dome-box" id="navbarNav">
+        &#60;header class="mb-5"&#62;
+            &#60;nav class="navbar navbar-expand-lg navbar-dark bg-dark"&#62;
+                &#60;!-- Website logo --&#62;
+                &#60;a class="navbar-brand" href="#"&#62;YOUR LOGO&#60;/a&#62;
     
-                    <hr class="d-block d-md-none d-lg-none" style="border-width: 2px;">
+                &#60;!-- Display hamburger menu for desktop and mobile phone --&#62;
+                &#60;button class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"&#62;
+                    &#60;span class="navbar-toggler-icon"&#62;&#60;/span&#62;
+                &#60;/button&#62;
+    
+                &#60;!-- Display hamburger menu for tablet. Keep the data-toggle name --&#62;
+                &#60;button class="sidebar-toggler d-none d-md-block d-lg-none" type="button" data-toggle="toggle" data-target="#navbarNav" aria-label="Toggle navigation"&#62;
+                    &#60;span class="navbar-toggler-icon"&#62;&#60;/span&#62;
+                &#60;/button&#62;
+
+                &#60;!-- Menu --&#62;
+                &#60;div class="collapse navbar-collapse pantheon-dome-box" id="navbarNav"&#62;
+    
+                    &#60;hr class="d-block d-md-none d-lg-none" style="border-width: 2px;"&#62;
                     
-                    <!-- a scrolling menu effect for mobile phone mode  -->
-                    <div class="pantheon-dome">
-                        <ul>
-                            <!-- Each option of the menu has to be wrapped in this structure -->
-                            <a href="#">
-                                <div class="pantheon-dome--content">
-                                    <div>
-                                        <!-- Change the "icon" of the option -->
-                                        <img src="http://image.prntscr.com/image/15f7d1b8dca94296b249f56eb6cc78d3.png"/>
-                                    </div>
-                                    <!-- Display a short description (17 character) -->
-                                    <span>10/02/2019</span>
-                                </div>
-                            </a>
+                    &#60;!-- a scrolling menu effect for mobile phone mode  --&#62;
+                    &#60;div class="pantheon-dome"&#62;
+                        &#60;ul&#62;
+                            &#60;!-- Each option of the menu has to be wrapped in this structure --&#62;
+                            &#60;a href="#"&#62;
+                                &#60;div class="pantheon-dome--content"&#62;
+                                    &#60;div&#62;
+                                        &#60;!-- Change the "icon" of the option --&#62;
+                                        &#60;img src="http://image.prntscr.com/image/15f7d1b8dca94296b249f56eb6cc78d3.png"/&#62;
+                                    &#60;/div&#62;
+                                    &#60;!-- Display a short description (17 character) --&#62;
+                                    &#60;span&#62;10/02/2019&#60;/span&#62;
+                                &#60;/div&#62;
+                            &#60;/a&#62;
     
-                            <a href="#">
-                                <div class="pantheon-dome--content">
-                                    <div>
-                                        <img src="http://image.prntscr.com/image/f2b0ac9e43334eddac9c1af05e573888.png"/>
-                                    </div>
-                                    <span>10/03/2019</span>
-                                </div>
-                            </a>
+                            &#60;a href="#"&#62;
+                                &#60;div class="pantheon-dome--content"&#62;
+                                    &#60;div&#62;
+                                        &#60;img src="http://image.prntscr.com/image/f2b0ac9e43334eddac9c1af05e573888.png"/&#62;
+                                    &#60;/div&#62;
+                                    &#60;span&#62;10/03/2019&#60;/span&#62;
+                                &#60;/div&#62;
+                            &#60;/a&#62;
     
-                            <a href="#">
-                                <div class="pantheon-dome--content">
-                                    <div>
-                                        <img src="http://image.prntscr.com/image/6915d39cf813481fa3c19fa292c582ba.png"/>
-                                    </div>
-                                    <span>10/04/2019</span>
-                                </div>
-                            </a>
+                            &#60;a href="#"&#62;
+                                &#60;div class="pantheon-dome--content"&#62;
+                                    &#60;div&#62;
+                                        &#60;img src="http://image.prntscr.com/image/6915d39cf813481fa3c19fa292c582ba.png"/&#62;
+                                    &#60;/div&#62;
+                                    &#60;span&#62;10/04/2019&#60;/span&#62;
+                                &#60;/div&#62;
+                            &#60;/a&#62;
     
-                            <a class="not-selectable" href="#">
-                                <div class="pantheon-dome--content">
-                                    <!-- The class ghost-it-out disable the option -->
-                                    <div class="ghost-it-out">
-                                        <img src="http://image.prntscr.com/image/ad357d428faf4e88ab3bdac78782b523.png"/>
-                                    </div>
-                                    <span>10/05/2019</span>
-                                </div>
-                            </a>
+                            &#60;a class="not-selectable" href="#"&#62;
+                                &#60;div class="pantheon-dome--content"&#62;
+                                    &#60;!-- The class ghost-it-out disable the option --&#62;
+                                    &#60;div class="ghost-it-out"&#62;
+                                        &#60;img src="http://image.prntscr.com/image/ad357d428faf4e88ab3bdac78782b523.png"/&#62;
+                                    &#60;/div&#62;
+                                    &#60;span&#62;10/05/2019&#60;/span&#62;
+                                &#60;/div&#62;
+                            &#60;/a&#62;
     
-                            <a class="not-selectable" href="#">
-                                <div class="pantheon-dome--content">
-                                    <div class="ghost-it-out">
-                                        <img src="http://image.prntscr.com/image/7e98362d62b2490c998fe1472dcb0601.png"/>
-                                    </div>
-                                    <span>10/06/2019</span>
-                                </div>
-                            </a>
+                            &#60;a class="not-selectable" href="#"&#62;
+                                &#60;div class="pantheon-dome--content"&#62;
+                                    &#60;div class="ghost-it-out"&#62;
+                                        &#60;img src="http://image.prntscr.com/image/7e98362d62b2490c998fe1472dcb0601.png"/&#62;
+                                    &#60;/div&#62;
+                                    &#60;span&#62;10/06/2019&#60;/span&#62;
+                                &#60;/div&#62;
+                            &#60;/a&#62;
 
-                        </ul>
-                    </div>
+                        &#60;/ul&#62;
+                    &#60;/div&#62;
     
-                    <div class="col-lg-1 col-12">
-                        <button type="button" class="btn btn-info btn-block">Login</button>
-                    </div>
+                    &#60;div class="col-lg-1 col-12"&#62;
+                        &#60;button type="button" class="btn btn-info btn-block"&#62;Login&#60;/button&#62;
+                    &#60;/div&#62;
                             
-                </div>
-                <!-- Using a div with id backOverlay and class eclipse to darken the background   -->
-                <div id="backOverlay" class="eclipse d-lg-none"></div>
+                &#60;/div&#62;
+                &#60;!-- Using a div with id backOverlay and class eclipse to darken the background   --&#62;
+                &#60;div id="backOverlay" class="eclipse d-lg-none"&#62;&#60;/div&#62;
                     
-            </nav>
-        </header&#62;
+            &#60;/nav&#62;
+        &#60;/header&#62;
 
 
 </pre>
