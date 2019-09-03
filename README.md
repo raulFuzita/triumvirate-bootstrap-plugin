@@ -26,11 +26,11 @@ Mobile Phone View:
 
 Include the css after the Bootstrap css
 
-&#60;link rel="stylesheet" href="https://raw.githubusercontent.com/raulFuzita/triumvirate-booystrap-plugin/master/triumvirate-bootstrap-plugin/css/triumvirate.css" crossorigin="anonymous"&#62;
+&#60;link rel="stylesheet" href="https://rawcdn.githack.com/raulFuzita/triumvirate-booystrap-plugin/634d359a4172a80975bdfa612629e94b17509bd7/triumvirate-bootstrap-plugin/css/triumvirate.css" crossorigin="anonymous"&#62;
 
 Include the js after the Jquery and Bootstrap js
 
-&#60;script src="https://raw.githubusercontent.com/raulFuzita/triumvirate-booystrap-plugin/master/triumvirate-bootstrap-plugin/js/triumvirate.js" crossorigin="anonymous"&#62;&#60;/script&#62;
+&#60;script src="https://rawcdn.githack.com/raulFuzita/triumvirate-booystrap-plugin/634d359a4172a80975bdfa612629e94b17509bd7/triumvirate-bootstrap-plugin/js/triumvirate.js" crossorigin="anonymous"&#62;&#60;/script&#62;
 
 
 
