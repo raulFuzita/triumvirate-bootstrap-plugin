@@ -1,0 +1,26 @@
+{
+    "name": "raulFuzita/triumvirate-booystrap-plugin",
+    "description": "Lightweight HTTP client",
+    "keywords": ["http client", "curl"],
+    "homepage": "https://github.com/raulFuzita/triumvirate-booystrap-plugin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raul Fuzita",
+            "email": "raul.fuzita@gmail.com",
+            "homepage": "https://remoter-calibration.000webhostapp.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "suggest": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "triumvirate-booystrap-plugin": "triumvirate-booystrap-plugin/"
+        }
+    }
+}
