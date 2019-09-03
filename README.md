@@ -34,6 +34,7 @@ Include the js after the Jquery and Bootstrap js
 
 
 
+
 # Sources 
 
 For the scrolling effect, I based on the code provided at https://medium.com Article webpage link: https://medium.com/flexbox-and-grids/how-to-create-horizontally-scrollable-sections-with-flexbox-60d860f539b2 date: 28/08/2019
