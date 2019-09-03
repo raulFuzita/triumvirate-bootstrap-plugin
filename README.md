@@ -1,4 +1,4 @@
-# triumvirate-booystrap-plugin
+# triumvirate-bootstrap-plugin
 Three Mode Navbar with icon for Bootstrap (Desktop: navbar; Tablet: sidebar; Mobile: scrolling menu;)
 
 A Navbar that changes based on your screen mode. This Bootstrap plugin provides a unique stylish mode for desktop, tablet, and mobile phone view. Don't forget to download the Bootstrap package you use the cached version. This project uses Bootstrap 4.1.3
