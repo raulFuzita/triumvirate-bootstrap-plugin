@@ -51,7 +51,7 @@ Include the js after the Jquery and Bootstrap js
                 &#60;/button&#62;
 
                 &#60;!-- Menu --&#62;
-                &#60;div class="collapse navbar-collapse pantheon-dome-box" id="navbarNav"&#62;
+                &#60;div class="collapse navbar-collapse" id="navbarNav"&#62;
     
                     &#60;hr class="d-block d-md-none d-lg-none" style="border-width: 2px;"&#62;
                     
@@ -122,6 +122,22 @@ Include the js after the Jquery and Bootstrap js
         &#60;/header&#62;
 
 
+</pre>
+
+<h3>Applying dark or light background individually for tablet view mode</h3>
+
+<pre>
+  &#60;div class="collapse navbar-collapse dark" id="navbarNav"&#62;
+    ...
+  &#60;/div&#62;
+</pre>
+
+
+
+<pre>
+  &#60;div class="collapse navbar-collapse light" id="navbarNav"&#62;
+    ...
+  &#60;/div&#62;
 </pre>
 
 # Sources 
