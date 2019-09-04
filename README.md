@@ -58,6 +58,7 @@ Include the js after the Jquery and Bootstrap js
                     &#60;!-- a scrolling menu effect for mobile phone mode  --&#62;
                     &#60;div class="pantheon-dome"&#62;
                         &#60;ul&#62;
+                        
                             &#60;!-- Each option of the menu has to be wrapped in this structure --&#62;
                             &#60;a href="#"&#62;
                                 &#60;div class="pantheon-dome--content"&#62;
@@ -67,34 +68,6 @@ Include the js after the Jquery and Bootstrap js
                                     &#60;/div&#62;
                                     &#60;!-- Display a short description (17 character) --&#62;
                                     &#60;span&#62;10/02/2019&#60;/span&#62;
-                                &#60;/div&#62;
-                            &#60;/a&#62;
-    
-                            &#60;a href="#"&#62;
-                                &#60;div class="pantheon-dome--content"&#62;
-                                    &#60;div&#62;
-                                        &#60;img src="http://image.prntscr.com/image/f2b0ac9e43334eddac9c1af05e573888.png"/&#62;
-                                    &#60;/div&#62;
-                                    &#60;span&#62;10/03/2019&#60;/span&#62;
-                                &#60;/div&#62;
-                            &#60;/a&#62;
-    
-                            &#60;a href="#"&#62;
-                                &#60;div class="pantheon-dome--content"&#62;
-                                    &#60;div&#62;
-                                        &#60;img src="http://image.prntscr.com/image/6915d39cf813481fa3c19fa292c582ba.png"/&#62;
-                                    &#60;/div&#62;
-                                    &#60;span&#62;10/04/2019&#60;/span&#62;
-                                &#60;/div&#62;
-                            &#60;/a&#62;
-    
-                            &#60;a class="not-selectable" href="#"&#62;
-                                &#60;div class="pantheon-dome--content"&#62;
-                                    &#60;!-- The class ghost-it-out disable the option --&#62;
-                                    &#60;div class="ghost-it-out"&#62;
-                                        &#60;img src="http://image.prntscr.com/image/ad357d428faf4e88ab3bdac78782b523.png"/&#62;
-                                    &#60;/div&#62;
-                                    &#60;span&#62;10/05/2019&#60;/span&#62;
                                 &#60;/div&#62;
                             &#60;/a&#62;
     
