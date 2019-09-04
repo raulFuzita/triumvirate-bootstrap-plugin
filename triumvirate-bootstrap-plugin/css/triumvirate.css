@@ -86,6 +86,9 @@ nav {position: relative;}
     margin-top: 5px;
 }
 
+/* Light mode */
+.navbar-light .pantheon-dome--content span {color: #343a40;}
+
 .pantheon-dome--content div {
     position: relative;
     width: 85%;
@@ -102,6 +105,11 @@ nav {position: relative;}
 }
 
 .ghost-it-out + span {color: #777;}
+
+/* Light mode */
+.navbar-light .ghost-it-out img {opacity: 0.4;}
+.navbar-light .ghost-it-out {opacity: 0.7;}
+.navbar-light .ghost-it-out + span {color: #b5b5b5;}
 
 .not-selectable {
 	-webkit-user-select: none !important;  /* Chrome all / Safari all */
@@ -174,6 +182,24 @@ nav {position: relative;}
         padding: 20px 25px 0 25px;
         
     }
+
+    /* Light mode */
+    .navbar:not(.navbar-dark) .navbar-collapse{background-color: #f8f9fa;}
+    .navbar-collapse.in {margin-left: 0;}
+    /* Dark in light Navbar just for tablet mode */
+    .navbar-collapse.dark {background-color: #343a40 !important;}
+    .navbar-collapse.dark .pantheon-dome--content span {
+        color: #f8f9fa;
+    }
+    .navbar-collapse.dark .ghost-it-out + span {color: #777;}
+    .navbar-collapse.dark .ghost-it-out img {opacity: 1;}
+    .navbar-collapse.dark .ghost-it-out {opacity: 0.5;}
+    /* Light in Dark Navbar just for tablet mode */
+    .navbar-collapse.light {background-color: #f8f9fa !important;}
+    .navbar-collapse.light .ghost-it-out img {opacity: 0.4;}
+    .navbar-collapse.light .ghost-it-out {opacity: 0.7;}
+    .navbar-collapse.light .pantheon-dome--content span {color: #343a40;}
+    .navbar-collapse.light .ghost-it-out + span {color: #b5b5b5;}
 
     .navbar-collapse.in {margin-left: 0;}
 }
