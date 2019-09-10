@@ -18,7 +18,7 @@ nav {position: relative;}
     text-decoration: none;
 }
 
-.collapse {
+div.collapse[role=scrolling-menu] {
     overflow-x: auto !important;
     text-align: center;
 }
@@ -44,25 +44,20 @@ nav {position: relative;}
 }
 
 .pantheon-dome::-webkit-scrollbar {display: none;}
-
-.pantheon-dome ul, ul.pantheon-dome {
-    display: flex;
-    list-style-type: none;
-    padding-left: 0;
-    width: 100%;
-}
-.pantheon-dome ul li {
-    display: inline;
-    margin: auto; 
-}
-
-.pantheon-dome a {margin: auto; padding: auto}
-.pantheon-dome ul li a { text-decoration: none;}
+.pantheon-dome a { text-decoration: none; margin: auto;}
 
 .pantheon-dome--content {
     position: relative;
     width: 100px;
     margin: 5px auto;
+}
+
+.pantheon-dome--content div {
+    position: relative;
+    width: 85%;
+    height: 79%;
+    border-radius: 50%;
+    margin: auto;
 }
 
 .pantheon-dome--content img {
@@ -71,7 +66,6 @@ nav {position: relative;}
     border-radius: 50%;
     object-fit: cover; 
     vertical-align: middle;
-    margin-left: 0;
 }
 
 .pantheon-dome--content span {
@@ -88,16 +82,6 @@ nav {position: relative;}
 
 /* Light mode */
 .navbar-light .pantheon-dome--content span {color: #343a40;}
-
-.pantheon-dome--content div {
-    position: relative;
-    width: 85%;
-    height: 79%;
-    top: 0;
-    left: 4px;
-    border-radius: 50%;
-    margin: auto;
-}
 
 .ghost-it-out {
     background-color: black;
@@ -156,8 +140,11 @@ nav {position: relative;}
         z-index: 100002 !important;
     }
 
-    .pantheon-dome {display: block !important; max-height: 60%;}
-    .pantheon-dome ul, ul.pantheon-dome {display: block !important;}
+    .pantheon-dome {
+        display: block !important; 
+        max-height: 60%;
+        margin-bottom: 10px;
+    }
     .pantheon-dome + div {padding-top: 15px;}
     .pantheon-dome--content {margin-top: 25px !important;}
 
@@ -204,6 +191,11 @@ nav {position: relative;}
     .navbar-collapse.in {margin-left: 0;}
 }
 
+@media (max-width: 992px) {
+    .pantheon-dome + button {width: 100% !important;}
+    .pantheon-dome + .btn {width: 100% !important;}
+}
+
 @media (min-width: 1200px) {
     .navbar-expand-xl .sidebar-toggler {
         display: none;
@@ -219,4 +211,7 @@ nav {position: relative;}
         color: rgba(255, 255, 255, 0.5);
         border-color: rgba(255, 255, 255, 0.1);
     }
+
+    .pantheon-dome + button {margin-right: 5px; margin-left: 10px;}
+    .pantheon-dome + .btn {margin-right: 5px; margin-left: 10px;}
 }
