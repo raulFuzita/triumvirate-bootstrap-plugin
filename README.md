@@ -51,13 +51,12 @@ Include the js after the Jquery and Bootstrap js
                 &#60;/button&#62;
 
                 &#60;!-- Menu --&#62;
-                &#60;div class="collapse navbar-collapse" id="navbarNav"&#62;
+                &#60;div class="collapse navbar-collapse" id="navbarNav" role="scrolling-menu" &#62;
     
                     &#60;hr class="d-block d-md-none d-lg-none" style="border-width: 2px;"&#62;
                     
                     &#60;!-- a scrolling menu effect for mobile phone mode  --&#62;
                     &#60;div class="pantheon-dome"&#62;
-                        &#60;ul&#62;
                         
                             &#60;!-- Each option of the menu has to be wrapped in this structure --&#62;
                             &#60;a href="#"&#62;
@@ -80,7 +79,6 @@ Include the js after the Jquery and Bootstrap js
                                 &#60;/div&#62;
                             &#60;/a&#62;
 
-                        &#60;/ul&#62;
                     &#60;/div&#62;
     
                     &#60;div class="col-lg-1 col-12"&#62;
@@ -100,7 +98,7 @@ Include the js after the Jquery and Bootstrap js
 <h3>Applying dark or light background individually for tablet view mode</h3>
 
 <pre>
-  &#60;div class="collapse navbar-collapse dark" id="navbarNav"&#62;
+  &#60;div class="collapse navbar-collapse dark" id="navbarNav" role="scrolling-menu"&#62;
     ...
   &#60;/div&#62;
 </pre>
@@ -108,7 +106,7 @@ Include the js after the Jquery and Bootstrap js
 
 
 <pre>
-  &#60;div class="collapse navbar-collapse light" id="navbarNav"&#62;
+  &#60;div class="collapse navbar-collapse light" id="navbarNav" role="scrolling-menu"&#62;
     ...
   &#60;/div&#62;
 </pre>
