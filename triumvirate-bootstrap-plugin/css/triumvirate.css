@@ -118,8 +118,8 @@ div.collapse[role=scrolling-menu] {
 @media (max-width: 767px) {
 
     .eclipse {display: none;}
-    .pantheon-dome--content img {height: 65px;}
-    .pantheon-dome--content div {width: 65%;}
+    .pantheon-dome--content img {height: 75px;}
+    .pantheon-dome--content div {width: 75%;}
 
     .pantheon-dome--content span {
         font-size: 0.7em; 
